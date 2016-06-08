@@ -9,6 +9,8 @@ This is a set of basic functions for retrieving the account tree for a designate
 # How-To Use
 #### Retrieving Multidimensional Array of Tree
 The array is based off a need for only three (3) pieces of information: Account ID, Account Name, and Sub-Acocunts.
+
+**Note**: The function depends upon the `$cURL` variable name matching. If you wish to change it from the example, it **MUST** be changed in the function to match.
 ``` php
 <?php
   // Update to reflect the token of the admin user that is to be used
